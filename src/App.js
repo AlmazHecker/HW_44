@@ -45,35 +45,8 @@ function App() {
       <NewExpense onAddExpense={addExpenseHandler} />
       {/* TODO: передаем данные как пропс */}
       <Expenses expenses={expenses} />
-      <div>
-        hello
-
-
-      </div>
     </div>
   );
 }
 
 export default App;
-
-
-// {
-//   "explorer.confirmDelete": false,
-//   "liveServer.settings.donotShowInfoMsg": true,
-//   "workbench.iconTheme": "vscode-icons",
-//   "vscodeGoogleTranslate.preferredLanguage": "English",
-//   "files.autoSave": "onFocusChange",
-//   "editor.formatOnSave": true,
-//   "editor.defaultFormatter": "esbenp.prettier-vscode",
-//   "[json]": {
-//     "editor.quickSuggestions": {
-//       "strings": true
-//     },
-//     "editor.suggest.insertMode": "replace"
-//   },
-//   "prettier.singleQuote": true,
-//   "workbench.editor.untitled.hint": "hidden",
-//   "vsicons.dontShowNewVersionMessage": true,
-//   "security.workspace.trust.untrustedFiles": "open",
-//   "workbench.colorTheme": "Visual Studio Dark"
-// }
