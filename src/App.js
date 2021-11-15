@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
+import RenderItems from './RenderItems';
+
 function App() {
-
-
   return (
     <div>
-      hello
+      <RenderItems />
     </div>
   );
 }
